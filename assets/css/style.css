@@ -46,24 +46,28 @@ nav{
 .button{
     height:20px;
     width: 8%;
-    padding: 10px;
     font-size: 60%;
     border-radius: 10%;
     border-color:#f6f8f9cc ;
    text-align: center;
+   display:inline;
+   padding: 10px;
 }
 
 #button1{
     background-color:#46ADF1 ;
     color: white;
+
 }
 
 #button2{
     background-color: white;
+    border: 1px solid lightgrey;
+    color: lightgrey;
 }
 
 #lists{
-
+    margin-top: 40px;
     padding-inline: 50px;
 }
 .sections{
