@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    width: 100%;
+    padding: 2%;
+    text-align: left;
+    background-color: white;
+}
+
+#titolo{
+    display: inline;
+    font-size: 40px;
+    
+}
+
+html{
+    background-color: #f6f8f9cc;
+}
+
+main{
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 5%;
+    background-color: white;
+    
+}
+
+nav{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    max-height: 5%;
+}
+
+.button{
+    height:20px;
+    width: 8%;
+    padding: 10px;
+    font-size: 60%;
+    border-radius: 10%;
+    border-color:#f6f8f9cc ;
+   text-align: center;
+}
+
+#button1{
+    background-color:#46ADF1 ;
+    color: white;
+}
+
+#button2{
+    background-color: white;
+}
