@@ -17,14 +17,19 @@ p{
 header{
     width: 100%;
     padding: 2%;
-    
+    height: 100px;
     background-color: white;
+    
 }
-
+img{
+    display: inline;
+    vertical-align: middle;
+}
 #titolo{
     display: inline;
     font-size: 40px;
     
+    vertical-align: middle;
 }
 
 html{
