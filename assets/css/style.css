@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+p{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+
 header{
     width: 100%;
     padding: 2%;
@@ -24,7 +31,7 @@ html{
 main{
     width: 60%;
     margin-inline: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     background-color: white;
     
 }
@@ -53,4 +60,32 @@ nav{
 
 #button2{
     background-color: white;
+}
+
+#lists{
+
+    padding-inline: 50px;
+}
+.sections{
+    font-size: 200%;
+}
+
+.check::before{
+    content:"\2713";
+    color:green;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 2px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.not::before{
+    content: "\0058";
+    color:red;
+    border: 1px solid red;
+    border-radius: 60%;
+    padding: 2px;
+    font-size: 15px;
+    margin-right: 5px;
 }
